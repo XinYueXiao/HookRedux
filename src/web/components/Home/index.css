@@ -1,0 +1,26 @@
+:root {
+    --buleColor: rgb(12, 155, 199);
+    --orangeColor: rgb(199, 96, 12);
+}
+
+.hook-box {
+    text-align: center;
+    border-bottom: 1px double var(--buleColor);
+    padding-bottom: 10px;
+}
+
+.button {
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border: 0px;
+}
+
+.blue {
+    background-color: var(--buleColor)
+}
+
+.orange {
+    margin-left: 6px;
+    background-color: var(--orangeColor)
+}
